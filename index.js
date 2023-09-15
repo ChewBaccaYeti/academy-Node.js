@@ -1,19 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { App } from 'components/App';
-import './index.css';
-import {
+const {
   listContacts,
   getContactById,
   removeContact,
   addContact,
-} from './db/contacts';
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+} = require('./db/contacts');
 
 (async () => {
   try {
