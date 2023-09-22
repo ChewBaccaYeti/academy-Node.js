@@ -2,5 +2,5 @@
   "compilerOptions": {
     "baseUrl": "src"
   },
-  "include": ["src", "index.js", "contacts.js"]
+  "include": ["app.js", "index.js", "contacts.js"]
 }
