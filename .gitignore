@@ -3,6 +3,7 @@
 #Junk
 .vscode/
 .idea/
+game_results.txt
 
 # dependencies
 node_modules
