@@ -1,5 +1,5 @@
 const readline = require('readline');
-const fs = require('fs').promises;
+const fs = require('fs-extra').promises;
 const { program } = require('commander');
 require('colors');
 
