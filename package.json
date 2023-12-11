@@ -1,16 +1,13 @@
 {
-  "name": "react-homework-template",
+  "name": "",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://goitacademy.github.io/react-homework-template/",
+  "homepage": "",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "commander": "^11.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
     "web-vitals": "^2.1.3"
   },
   "scripts": {
@@ -22,10 +19,7 @@
     "lint:js": "eslint src/**/*.{js,jsx}"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": []
   },
   "browserslist": {
     "production": [
@@ -39,7 +33,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "Acest proiect a fost creat cu ajutorul\r [Create React App](https://github.com/facebook/create-react-app). Pentru prezentări\r și configurarea de funcții suplimentare\r [consultați documentația](https://facebook.github.io/create-react-app/docs/getting-started).",
+  "description": "",
   "main": "index.js",
   "author": "",
   "license": "ISC",
