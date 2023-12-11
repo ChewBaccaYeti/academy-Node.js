@@ -1,4 +1,7 @@
 const fs = require('fs').promises;
+const express = require('express');
+
+const app = express();
 
 exports.checkUserById = async (req, res, next) => {
     app.use('/users/:id', async (req, res, next) => {
