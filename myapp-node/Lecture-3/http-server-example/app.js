@@ -15,9 +15,9 @@ const server = http.createServer((request, response)=>{
 });
 
 // const server = http.createServer((request, response)=>{
-//     // console.log(request.url);
-//     // console.log(request.headers["user-agent"]);
-//     // console.log(request.method);
+    // console.log(request.url);
+    // console.log(request.headers["user-agent"]);
+    // console.log(request.method);
 
 //     response.write("<h2>Добро пожаловать на наш сайт!</h2>");
 //     response.end();

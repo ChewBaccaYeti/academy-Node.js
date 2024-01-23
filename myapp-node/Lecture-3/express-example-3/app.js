@@ -46,7 +46,7 @@ app.get('/books', async (req, res) => {
 
 app.use((req, res) => {
     res.status(404).json({
-        messaage: 'Not Found',
+        message: 'Not Found',
     });
 });
 
